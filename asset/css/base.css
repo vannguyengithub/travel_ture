@@ -1,0 +1,55 @@
+:root {
+    --white-color: #ffff;
+    --black-color: #000;
+    --text-color: #ada29a;
+    --title-color: #555555;
+}
+
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* thủ thuật HACK */
+    font-size: 62.5%;
+    /* 1.6rem là 16px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* title */
+.c-home-title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.c-produc-home-title__h3 {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.c-produc-home-title__h1 {
+    font-size: 3.2rem;
+    color: #555555;
+    font-weight: 700;
+}
+.c-produc-home-title__btm {
+    position: relative;
+    z-index: 99;
+}
+.c-produc-home-title__btm::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 6px;
+    z-index: -9;
+    background-color: #1bbc9b;
+}
