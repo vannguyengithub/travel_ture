@@ -187,4 +187,7 @@
     .c-header__item-logo {
         padding: 14px 18px;
     }
+    .c-slider-holiday__texbox {
+        text-align: left;
+    }
 }
