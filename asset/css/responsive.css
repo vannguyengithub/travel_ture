@@ -7,6 +7,9 @@
     .header {
         padding-bottom: 100px;
     }
+    .c-header-overlay__close-1 {
+        display: block;
+    }
     .inner--header {
         display: block;
     }

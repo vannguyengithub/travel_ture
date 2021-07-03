@@ -16,6 +16,9 @@
 .bar-box {
     display: none;
 }
+.c-header-overlay__close-1 {
+    display: none;
+}
 .bar-box__icon {
     font-size: 2.4rem;
     color: #fff;
