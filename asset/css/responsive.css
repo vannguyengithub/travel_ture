@@ -10,13 +10,19 @@
     .inner--header {
         display: block;
     }
+    .c-header-search__inner {
+        padding: 0 10px;
+    }
     .c-header__list {
         display: block;
     }
     .c-header__item-logo {
         display: flex;
         justify-content: space-between;
-        padding: 10px 20px;
+        padding: 30px 60px;
+    }
+    .c-header-search__heading {
+        font-size: 4.2rem;
     }
     .bar-box{
         display: block;
@@ -65,8 +71,50 @@
    }
    .list-day-info__wrap {
        width: 100%;
+       margin: 34px 0;
    }
-  
+   .discover__inner {
+       display: block;
+   }
+   .discover-bg-1 {
+       width: 100%;
+   }
+   .discover-bg-2 {
+       width: 100%;
+   }
+   .tour-location__inner {
+       display: block;
+   }
+   .tour-location__item {
+       margin-bottom: 30px;
+   }
+   .app_form-travel-wrap {
+       display: block;
+   }
+   .form-travel__txtbox {
+       padding: 26px 0;
+   }
+   .form-travel__formbox-chat {
+       width: 70%;
+   }
+   .form-travel__formbox-sent {
+       width: 30%;
+       text-align: center;
+   }
+   .form-footer__list {
+       display: block;
+   }
+   .form-footer__list-wrap {
+       width: 100%;
+   }
+   .form-footer__list-wrap--1 {
+       display: block;
+   }
+   .footer {
+       display: block;
+       text-align: center;
+       line-height: 3;
+   }
 }
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -79,6 +127,12 @@
     }
     .list-day__inner {
         flex-direction: column;
+    }
+    .list-day-time__list {
+        left: 19%;
+    }
+    .introduce__list {
+        display: block;
     }
 }
 /* Mobile */
@@ -95,5 +149,36 @@
         flex-direction: column;
         text-align: center;
         padding: 31px 0px;
+    }
+    .list-day__inner {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .list-day-time__list {
+        left: 0;
+        display: block;
+        position: unset ;
+    }
+    .list-day-time__item {
+        width: 100%;
+    }
+    .list-day-time__img {
+        height: unset;
+    }
+    .list-day-time__item-inner {
+        margin-top: 1px;
+    }
+    .introduce__list {
+        display: block;
+        padding: 0 63px;
+    }
+    .tour-location__inner {
+        padding: 0 10px;
+    }
+    .app_form-travel-wrap {
+        padding: 0 10px;
+    }
+    .c-header-overlay__mobile-1 {
+        width: 100%;
     }
 }

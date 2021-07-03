@@ -660,6 +660,7 @@
 }
 .introduce__list {
     display: flex;
+    list-style: none;
 }
 .introduce__item {
     display: flex;
@@ -699,7 +700,6 @@
 }
 .discover__inner {
     display: flex;
-    height: 270px;
     flex-wrap: wrap;    
 }
 .discover-bg-1 {
@@ -923,7 +923,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 775px;
     margin: 100px auto 0 auto;
 }
 /*  */
