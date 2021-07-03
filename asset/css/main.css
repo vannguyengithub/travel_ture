@@ -81,6 +81,7 @@
     box-shadow: 0 0 3px #fff;
     line-height: 38px;
     display: none;
+    z-index: 99;
 }
 .c-header__item-logo {
     display: flex;

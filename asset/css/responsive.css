@@ -19,7 +19,7 @@
     .c-header__item-logo {
         display: flex;
         justify-content: space-between;
-        padding: 30px 60px;
+        padding: 30px 30px;
     }
     .c-header-search__heading {
         font-size: 4.2rem;
@@ -180,5 +180,8 @@
     }
     .c-header-overlay__mobile-1 {
         width: 100%;
+    }
+    .c-header__item-logo {
+        padding: 14px 18px;
     }
 }
