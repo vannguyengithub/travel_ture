@@ -4,6 +4,9 @@
     .hide-on-mobile-tablet {
         display: none;
     }
+    .header {
+        padding-bottom: 100px;
+    }
     .inner--header {
         display: block;
     }
@@ -43,6 +46,26 @@
        transform: translateX(0%);
        opacity: 1;
    } 
+   .c-header-search-input {
+       width: 100%;
+   }
+   .c-header-search__item {
+        width: 100%;
+        margin: 5px 0;
+   }
+   .c-header-search__list {
+        display: flex;
+        width: 100%;
+   }
+   .c-header-search__txt {
+        line-height: 1.4;
+   }
+   .c-slider-holiday__inner {
+        padding: 50px 0px;
+   }
+   .list-day-info__wrap {
+       width: 100%;
+   }
   
 }
 /* Tablet */
@@ -54,7 +77,9 @@
     .hide-on-tablet {
         display: none;
     }
-   
+    .list-day__inner {
+        flex-direction: column;
+    }
 }
 /* Mobile */
 @media (max-width: 739px) {
@@ -65,5 +90,10 @@
     .hide-on-mobile {
         display: none;
     }
-    
+    .c-slider-holiday__inner {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 31px 0px;
+    }
 }
