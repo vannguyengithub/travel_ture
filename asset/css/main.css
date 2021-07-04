@@ -136,6 +136,9 @@
 .c-header__nav-input:checked ~ .c-header-overlay {
     display: block;
 }
+.c-header-overlay__mobile {
+    z-index: 9999;
+}
 .c-header__nav-input:checked ~ .c-header-overlay__mobile  {
     transform: translateX(0%);
     opacity: 1;
