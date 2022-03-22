@@ -39,6 +39,10 @@ html {
     color: #555555;
     font-weight: 700;
 }
+.c-produc-home-title__h1:hover {
+    transform: rotate(-6deg);
+    transition: all .4s;
+}
 .c-produc-home-title__btm {
     position: relative;
     z-index: 99;

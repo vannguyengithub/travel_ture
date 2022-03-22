@@ -59,12 +59,12 @@
        width: 100%;
    }
    .c-header-search__item {
-        width: 100%;
-        margin: 5px 0;
+        width: calc(50% - 5px);
+        margin-bottom: 5px;
    }
    .c-header-search__list {
         display: flex;
-        width: 100%;
+        justify-content: space-between;
    }
    .c-header-search__txt {
         line-height: 1.4;
